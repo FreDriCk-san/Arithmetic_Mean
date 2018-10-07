@@ -11,8 +11,6 @@ namespace ArithmeticalMean
 
         static void Main(string[] args)
         {
-            // Fix UnitTests (multi threading... Async reading and writing file)
-            //UnitTests.Test();
 
             Console.WriteLine("\nEnter the name of your file (in 'Resource' directory): ");
             string fileName = Console.ReadLine();
@@ -27,7 +25,6 @@ namespace ArithmeticalMean
                 Console.WriteLine("Main Error: " + exception.Message);
             }
 
-            // Tmp
             Console.ReadLine();
         }
 
